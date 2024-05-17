@@ -1,0 +1,45 @@
+.banner {
+    background-color: rgb(24 27 30);
+    min-height: 100vh;
+    padding-top: 10vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.tagline {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 6rem; 
+}
+
+.gradient-tagline {
+    background: -webkit-linear-gradient(233deg, #1412e5 0%, #22f6ff 100%);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+@keyframes levitate {
+    0%, 100% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+  }
+  
+  .SvgHome1 {
+    animation: levitate 2s ease-in-out infinite;  
+  }
+

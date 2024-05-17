@@ -1,0 +1,8 @@
+.webt2sContainer {
+    width: 100%;
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(24 27 30);
+    align-items: center;
+}
